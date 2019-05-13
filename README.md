@@ -2,10 +2,10 @@
 This shapefile was obtained from the Georgia General Assembly Legislative and Congressional Reapportionment Office and processed by members of the Metric Geometry and Gerrymandering Group (MGGG). 
 
 ## Sources
-Precinct and district shapefiles were downloaded from the Georgia General Assembly Legislative and Congressional Reapportionment Office’s website (http://www.legis.ga.gov/Joint/reapportionment/en-US/default.aspx). Precinct level election data was obtained from the MIT Elections Data and Science Lab (https://electionlab.mit.edu). Demographic data was downloaded from the 2010 Decennial Census at the census block level from IPUMS NHGIS (https://www.nhgis.org).
+Precinct and district shapefiles were downloaded from the [Georgia General Assembly Legislative and Congressional Reapportionment Office’s website](http://www.legis.ga.gov/Joint/reapportionment/en-US/default.aspx). Precinct level election data was obtained from the [MIT Elections Data and Science Lab](https://electionlab.mit.edu). Demographic data was downloaded from the 2010 Decennial Census at the census block level from [IPUMS NHGIS](https://www.nhgis.org).
 
 ## Processing
-Election data from the MIT Elections Data and Science Lab was cleaned by MGGG staff in order to join it to the 2016 precinct shapefile. Demographic data was aggregated from the block level to the precinct level using the assign.py script (available here https://github.com/maxhully/spatial-ops/tree/master/spatial_ops). Congressional, house, and senate districts were assigned to precincts using MGGG’s roundoff code (available here https://github.com/gerrymandr/Preprocessing).
+Election data from the MIT Elections Data and Science Lab was cleaned by MGGG staff in order to join it to the 2016 precinct shapefile. Demographic data was aggregated from the block level to the precinct level using the [assign.py script](https://github.com/maxhully/spatial-ops/tree/master/spatial_ops). Congressional, house, and senate districts were assigned to precincts using [MGGG’s roundoff code](https://github.com/gerrymandr/Preprocessing).
 
 ## Metadata
 * `ID`: Unique identifier
