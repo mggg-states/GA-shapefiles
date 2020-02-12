@@ -2,10 +2,10 @@
 This shapefile was obtained from the Georgia General Assembly Legislative and Congressional Reapportionment Office and processed by members of the Metric Geometry and Gerrymandering Group (MGGG). 
 
 ## Sources
-Precinct and district shapefiles were downloaded from the [Georgia General Assembly Legislative and Congressional Reapportionment Office’s website](http://www.legis.ga.gov/Joint/reapportionment/en-US/default.aspx). Precinct level election data was obtained from the [MIT Elections Data and Science Lab](https://electionlab.mit.edu). Demographic data was downloaded from the 2010 Decennial Census at the census block level from [IPUMS NHGIS](https://www.nhgis.org).
+Precinct and district shapefiles were downloaded from the [Georgia General Assembly Legislative and Congressional Reapportionment Office’s website](http://www.legis.ga.gov/Joint/reapportionment/en-US/default.aspx). Precinct level election data was obtained from the [MIT Elections Data and Science Lab](https://electionlab.mit.edu). Block level demographic data for the 2010 Decennial Census were retrieved using the [Census API](https://api.census.gov/data/2010/dec/sf1). 
 
 ## Processing
-Election data from the MIT Elections Data and Science Lab was cleaned by MGGG staff in order to join it to the 2016 precinct shapefile. Demographic data was aggregated from the block level to the precinct level using the [assign.py script](https://github.com/maxhully/spatial-ops/tree/master/spatial_ops). Congressional, house, and senate districts were assigned to precincts using [MGGG’s roundoff code](https://github.com/gerrymandr/Preprocessing).
+Election data from the MIT Elections Data and Science Lab was cleaned by MGGG staff in order to join it to the 2016 precinct shapefile. Demographic data were aggregated from the census block level and precincts were assigned to districts using [MGGG's proration software](https://github.com/mggg/maup).
 
 ## Metadata
 * `ID`: Unique identifier
