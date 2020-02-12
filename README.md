@@ -9,7 +9,6 @@ Election data from the MIT Elections Data and Science Lab was cleaned by MGGG st
 
 ## Metadata
 * `ID`: Unique identifier
-* `POPULATION`:  Precinct population
 * `DISTRICT`: County FIPS code and precinct identifier
 * `PRECINCT_I`: Precinct identifier
 * `PRECINCT_N`: Precinct name
@@ -48,9 +47,9 @@ Election data from the MIT Elections Data and Science Lab was cleaned by MGGG st
 * `NHPIVAP`: Native Hawaiian and Pacific Islander, non-hispanic, voting age population
 * `OTHERVAP`: Other race, non-hispanic, voting age population
 * `2MOREVAP`: Two or more races, non-hispanic, voting age population
-* `CONDIST`: US Congressional district
+* `CD`: US Congressional district
 * `HDIST`: Georgia House district
-* `SENDIST`: Georgia Senate district
+* `SEND`: Georgia Senate district
 
 ## Projection
 This shapefile uses EPSG: 4019.
